@@ -1,0 +1,159 @@
+@import '/fonts/stylesheet.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: #1B1C21;
+    background-color: #FFFFFF;
+    max-width: 1119px;
+    width: 100%;
+    height: 100vh;
+    margin: 0
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+  
+a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.navigator {
+    width: 320px;
+}
+
+.navigator-header {
+    display: flex;
+    padding: 18px 24px 46px;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.navigator-header__close {
+    background-image: url(/images/close.svg);
+    background-repeat: no-repeat;
+    margin-right: 17px;
+}
+
+.navigator-header__logo {
+    margin-right: 78px;
+}
+
+.navigator-header__seek {
+    background-image: url(/images/search.svg);
+    background-repeat: no-repeat;
+}
+
+.navigator-body {
+    padding: 0 98px 268px 24px;
+}
+
+.navigator-body__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navigator-body__item {
+    
+    padding-bottom: 32px;
+}
+
+.navigator-body__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    position: relative;
+    outline: none;
+}
+
+.navigator-body__link:focus {
+    color: #7E7E82;
+    background-image: url(/images/highlight.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    padding-left: 20px;
+    
+}
+
+.navigator-info {
+    padding: 0 100px 32px 24px;
+}
+
+.button-info {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.button-info__call {
+    background-image: url(/images/call.svg);
+    background-repeat: no-repeat;
+}
+
+.button-info__chat {
+    background-image: url(/images/chat.svg);
+    background-repeat: no-repeat;
+}
+
+.button-info__profile {
+    background-image: url(/images/profile.svg);
+    background-repeat: no-repeat;
+}
+
+.contacts-email__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.contacts-email {
+    margin-bottom: 16px;
+}
+
+.contacts-tel__link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.06em;
+}
+
+.contacts-tel {
+    margin-bottom: 40px;
+}
+
+.navigator-lang {
+    display: flex;
+    gap: 16px;
+}
+
+.navigator-lang__btn {
+    background: none;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    cursor: default;
+}
+
+.navigator-lang__btn:focus {
+    color: #7E7E82;
+}
+
