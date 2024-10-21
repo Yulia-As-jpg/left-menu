@@ -25,7 +25,8 @@ a {
 }
 
 .navigator {
-    width: 320px;
+    margin: 0 auto;
+    max-width: 320px;
     box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
                 -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 
@@ -45,7 +46,7 @@ a {
 }
 
 .navigator-header__close {
-    background-image: url(/images/close.svg);
+    background-image: url(images/close.svg);
     background-repeat: no-repeat;
     margin-right: 17px;
 }
@@ -55,7 +56,7 @@ a {
 }
 
 .navigator-header__seek {
-    background-image: url(/images/search.svg);
+    background-image: url(images/search.svg);
     background-repeat: no-repeat;
 }
 
