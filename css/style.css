@@ -45,7 +45,7 @@ a {
 }
 
 .navigator-header__close {
-    background-image: url(/images/close.svg);
+    background-image: url(images/close.svg);
     background-repeat: no-repeat;
     margin-right: 17px;
 }
@@ -55,7 +55,7 @@ a {
 }
 
 .navigator-header__seek {
-    background-image: url(/images/search.svg);
+    background-image: url(images/search.svg);
     background-repeat: no-repeat;
 }
 
@@ -123,17 +123,17 @@ a {
 }
 
 .button-info__call {
-    background-image: url(/images/call.svg);
+    background-image: url(images/call.svg);
     background-repeat: no-repeat;
 }
 
 .button-info__chat {
-    background-image: url(/images/chat.svg);
+    background-image: url(images/chat.svg);
     background-repeat: no-repeat;
 }
 
 .button-info__profile {
-    background-image: url(/images/profile.svg);
+    background-image: url(images/profile.svg);
     background-repeat: no-repeat;
 }
 
