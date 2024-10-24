@@ -28,13 +28,14 @@ a {
     max-width: 320px;
     box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
                 -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+    padding: 18px 0 32px 24px;
 
 }
 
 .navigator-header {
     display: flex;
-    padding: 18px 24px 46px;
     align-items: center;
+    margin-bottom: 46px;
 }
 
 .btn {
@@ -42,37 +43,33 @@ a {
     border: none;
     min-width: 40px;
     min-height: 40px;
+    background-repeat: no-repeat;
 }
 
 .navigator-header__close {
     background-image: url(../images/close.svg);
-    background-repeat: no-repeat;
     margin-right: 17px;
 }
 
 .navigator-header__logo {
-    margin-right: 78px;
+    margin-right: 60px;
 }
 
 .navigator-header__seek {
     background-image: url(../images/search.svg);
-    background-repeat: no-repeat;
 }
 
-.navigator-body {
-    padding: 0 98px 268px 24px;
-}
 
 .navigator-body__list {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 100px;
     
 }
 
 .navigator-body__item {
-    
-    padding-bottom: 32px;
+    padding-bottom: 25px;
 }
 
 .navigator-body__link {
@@ -109,11 +106,6 @@ a {
     align-items: center;
     align-self: flex-start;
     min-height: 32px;
-    
-}
-
-.navigator-info {
-    padding: 0 100px 32px 24px;
 }
 
 .button-info {
@@ -124,17 +116,14 @@ a {
 
 .button-info__call {
     background-image: url(../images/call.svg);
-    background-repeat: no-repeat;
 }
 
 .button-info__chat {
     background-image: url(../images/chat.svg);
-    background-repeat: no-repeat;
 }
 
 .button-info__profile {
     background-image: url(../images/profile.svg);
-    background-repeat: no-repeat;
 }
 
 .contacts-email__link {
